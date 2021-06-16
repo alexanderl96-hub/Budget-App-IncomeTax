@@ -8,7 +8,6 @@ logs.get("/:Index", (req, res)=>{
          res.status(200).json(Array[Index])
      }else{
          res.redirect('/404')
-         console.log('Page not Found')
      }
 })
 
@@ -27,7 +26,6 @@ logs.delete("/:Index", (req, res)=>{
          res.status(200).json(Array)
      }else{
          res.redirect("/404")
-         console.log('Page not Found')
      }
 })
 
