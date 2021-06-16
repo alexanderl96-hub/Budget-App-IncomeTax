@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
     res.send("Welcome to the Budget-Incomen App!");
   });
 
-app.use("/logs", controllers)
+app.use("/transactions", controllers)
 app.get("*", (req,res)=>{
     res.send("<h3>Page not Found</h3>")
 })
