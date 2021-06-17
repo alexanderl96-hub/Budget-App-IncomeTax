@@ -16,10 +16,13 @@ module.exports = [
         date: 'April 3',
         taxes: 0.05,
         retirement: 0,
+        save: 0,
         creditcard: 0.30,
         market: 20,
+        internet: 0,
         pet: 10,
         car: 50,
+        insurrance: 0,
         additional: 15,
     },
     {
@@ -32,6 +35,7 @@ module.exports = [
         internet: 0,
         pet: 10,
         car: 0,
+        insurrance: 0,
         additional: 30,
     },
     {
@@ -44,6 +48,7 @@ module.exports = [
         internet: 0,
         pet: 20,
         car: 0,
+        insurrance: 0,
         additional: 90,
     },
     {
@@ -56,6 +61,7 @@ module.exports = [
         internet: 0,
         pet: 0,
         car: 30,
+        insurrance: 0,
         additional: 0,
     },
     {
@@ -81,6 +87,7 @@ module.exports = [
         internet: 0,
         pet: 25,
         car: 0,
+        insurrance: 0,
         additional: 150,
     },
     {
@@ -93,16 +100,21 @@ module.exports = [
         internet: 110,
         pet: 20,
         car: 300,
+        insurrance: 0,
         additional: 50,
+        
     },
     {
         date: 'May 3',
         taxes: 0.05,
+        save: 0,
         retirement: 0,
         creditcard: 0.30,
         market: 20,
+        internet: 0,
         pet: 10,
         car: 50,
+        insurrance: 0,
         additional: 15,
     },
     {
@@ -115,6 +127,7 @@ module.exports = [
         internet: 0,
         pet: 10,
         car: 0,
+        insurrance: 0,
         additional: 30,
     },
     {
@@ -127,6 +140,7 @@ module.exports = [
         internet: 0,
         pet: 20,
         car: 0,
+        insurrance: 0,
         additional: 90,
     },
     {
@@ -139,6 +153,7 @@ module.exports = [
         internet: 0,
         pet: 0,
         car: 30,
+        insurrance: 0,
         additional: 0,
     },
     {
@@ -164,6 +179,7 @@ module.exports = [
         internet: 0,
         pet: 25,
         car: 0,
+        insurrance: 0,
         additional: 85,
     },
     {
@@ -176,16 +192,20 @@ module.exports = [
         internet: 110,
         pet: 20,
         car: 300,
+        insurrance: 0,
         additional: 50,
     },
     {
         date: 'Jun 3',
         taxes: 0.05,
         retirement: 0,
+        save: 0,
         creditcard: 0.30,
+        internet: 0,
         market: 20,
         pet: 10,
         car: 50,
+        insurrance: 0,
         additional: 15,
     },
     {
@@ -198,6 +218,7 @@ module.exports = [
         internet: 0,
         pet: 10,
         car: 0,
+        insurrance: 0,
         additional: 30,
     },
     {
@@ -210,6 +231,7 @@ module.exports = [
         internet: 0,
         pet: 20,
         car: 0,
+        insurrance: 0,
         additional: 90,
     },
     {
@@ -222,6 +244,7 @@ module.exports = [
         internet: 0,
         pet: 0,
         car: 30,
+        insurrance: 0,
         additional: 0,
     },
     {
@@ -247,6 +270,7 @@ module.exports = [
         internet: 0,
         pet: 25,
         car: 0,
+        insurrance: 0,
         additional: 200,
     },
     {
@@ -259,16 +283,20 @@ module.exports = [
         internet: 110,
         pet: 20,
         car: 300,
+        insurrance: 0,
         additional: 50,
     },
     {
         date: 'July 3',
         taxes: 0.05,
         retirement: 0,
+        save: 0,
         creditcard: 0.30,
+        internet: 0,
         market: 20,
         pet: 10,
         car: 50,
+        insurrance: 0,
         additional: 15,
     },
     {
@@ -281,6 +309,7 @@ module.exports = [
         internet: 0,
         pet: 10,
         car: 0,
+        insurrance: 0,
         additional: 30,
     },
     {
@@ -293,6 +322,7 @@ module.exports = [
         internet: 0,
         pet: 20,
         car: 0,
+        insurrance: 0,
         additional: 90,
     },
     {
@@ -305,6 +335,7 @@ module.exports = [
         internet: 0,
         pet: 0,
         car: 30,
+        insurrance: 0,
         additional: 0,
     },
     {
@@ -331,6 +362,7 @@ module.exports = [
         internet: 0,
         pet: 25,
         car: 0,
+        insurrance: 0,
         additional: 105,
     },
 
