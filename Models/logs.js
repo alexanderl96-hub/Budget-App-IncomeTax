@@ -9,6 +9,7 @@ module.exports = [
         internet: 110,
         pet: 20,
         car: 300,
+        insurrance: 0,
         additional: 50,
     },
     {
