@@ -19,7 +19,7 @@ logs.post("/", (req, res)=>{
     Array.push(req.body)
     res.json(Array[Index.length - 1])
 })
-logs.delete("/:Index", (req, res)=>{
+logs.delete("/:index", (req, res)=>{
     const {Index} = req.params
      if(Array[Index]){
          Array.splice([Index], 1)
