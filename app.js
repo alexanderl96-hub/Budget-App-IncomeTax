@@ -10,14 +10,13 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.get("/", (req, res, next) => {
+app.get("/", (req, res) => {
     res.send("Welcome to the Budget-Incomen App!");
-    next()
   });
 
 app.use("/transactions", controllers)
 
-app.get("*", (req,res)=>{
+app.get("*", (req, res)=>{
     res.send("<h3>Page not Found</h3>")
 })
 
