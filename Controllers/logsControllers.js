@@ -1,29 +1,29 @@
 const express = require('express')
 const logs = express.Router()
-const Array = require("../Models/logs.js")
+const arrayI = require("../Models/logs.js")
 
-logs.get("/:Index", (req, res)=>{
-    const {Index} = req.params
-     if(Array[Index]){
-         res.status(200).json(Array[Index])
+logs.get("/:index", (req, res)=>{
+    const {index} = req.params
+     if(arrayI[index]){
+         res.status(200).json(arrayI[index])
      }else{
          res.redirect('/404')
      }
 })
 
 logs.get("/", (req, res)=>{
-    res.json(Array)
+    res.json(arrayI)
 })
 
 logs.post("/", (req, res)=>{
-    Array.push(req.body)
-    res.json(Array[Index.length - 1])
+    arrayI.push(req.body)
+    res.json(arrayI[index.length - 1])
 })
 logs.delete("/:index", (req, res)=>{
-    const {Index} = req.params
-     if(Array[Index]){
-         Array.splice([Index], 1)
-         res.status(200).json(Array)
+    const {index} = req.params
+     if(arrayI[index]){
+         arrayI.splice([index], 1)
+         res.status(200).json(arrayI)
      }else{
          res.redirect("/404")
      }
