@@ -11,6 +11,7 @@ module.exports = [
         car: 300,
         insurrance: 0,
         additional: 50,
+        made: true,
     },
     {
         date: 'April 3',
@@ -24,6 +25,7 @@ module.exports = [
         car: 50,
         insurrance: 0,
         additional: 15,
+        made: true,
     },
     {
         date: 'April 5',
@@ -37,6 +39,7 @@ module.exports = [
         car: 0,
         insurrance: 0,
         additional: 30,
+        made: false,
     },
     {
         date: 'April 7',
@@ -50,6 +53,7 @@ module.exports = [
         car: 0,
         insurrance: 0,
         additional: 90,
+        made: true,
     },
     {
         date: 'April 13',
@@ -63,6 +67,7 @@ module.exports = [
         car: 30,
         insurrance: 0,
         additional: 0,
+        made: false,
     },
     {
         date: 'April 17',
@@ -76,6 +81,7 @@ module.exports = [
         car: 0,
         insurrance: 250,
         additional: 50,
+        made: false,
     },
     {
         date: 'April 27',
@@ -89,6 +95,7 @@ module.exports = [
         car: 0,
         insurrance: 0,
         additional: 150,
+        made: true,
     },
     {
         date: 'May 1',
@@ -102,6 +109,7 @@ module.exports = [
         car: 300,
         insurrance: 0,
         additional: 50,
+        made: true,
         
     },
     {
@@ -116,6 +124,7 @@ module.exports = [
         car: 50,
         insurrance: 0,
         additional: 15,
+        made: false,
     },
     {
         date: 'May 5',
@@ -129,6 +138,7 @@ module.exports = [
         car: 0,
         insurrance: 0,
         additional: 30,
+        made: false,
     },
     {
         date: 'May 7',
@@ -142,6 +152,7 @@ module.exports = [
         car: 0,
         insurrance: 0,
         additional: 90,
+        made: false,
     },
     {
         date: 'May 13',
@@ -155,6 +166,7 @@ module.exports = [
         car: 30,
         insurrance: 0,
         additional: 0,
+        made: false,
     },
     {
         date: 'May 17',
@@ -168,6 +180,7 @@ module.exports = [
         car: 0,
         insurrance: 250,
         additional: 50,
+        made: true,
     },
     {
         date: 'May 27',
@@ -181,6 +194,7 @@ module.exports = [
         car: 0,
         insurrance: 0,
         additional: 85,
+        made: true,
     },
     {
         date: 'Jun 1',
@@ -194,6 +208,7 @@ module.exports = [
         car: 300,
         insurrance: 0,
         additional: 50,
+        made: false,
     },
     {
         date: 'Jun 3',
@@ -207,6 +222,7 @@ module.exports = [
         car: 50,
         insurrance: 0,
         additional: 15,
+        made: false,
     },
     {
         date: 'Jun 5',
@@ -220,6 +236,7 @@ module.exports = [
         car: 0,
         insurrance: 0,
         additional: 30,
+        made: false,
     },
     {
         date: 'Jun 7',
@@ -233,6 +250,7 @@ module.exports = [
         car: 0,
         insurrance: 0,
         additional: 90,
+        made: true,
     },
     {
         date: 'Jun 13',
@@ -246,6 +264,7 @@ module.exports = [
         car: 30,
         insurrance: 0,
         additional: 0,
+        made: true,
     },
     {
         date: 'Jun 17',
@@ -259,6 +278,7 @@ module.exports = [
         car: 0,
         insurrance: 250,
         additional: 50,
+        made: true,
     },
     {
         date: 'Jun 27',
@@ -272,6 +292,7 @@ module.exports = [
         car: 0,
         insurrance: 0,
         additional: 200,
+        made: false,
     },
     {
         date: 'July 1',
@@ -285,6 +306,7 @@ module.exports = [
         car: 300,
         insurrance: 0,
         additional: 50,
+        made: false,
     },
     {
         date: 'July 3',
@@ -298,6 +320,7 @@ module.exports = [
         car: 50,
         insurrance: 0,
         additional: 15,
+        made: false,
     },
     {
         date: 'July 5',
@@ -311,6 +334,7 @@ module.exports = [
         car: 0,
         insurrance: 0,
         additional: 30,
+        made: true,
     },
     {
         date: 'July 7',
@@ -324,6 +348,7 @@ module.exports = [
         car: 0,
         insurrance: 0,
         additional: 90,
+        made: true,
     },
     {
         date: 'July 13',
@@ -337,6 +362,7 @@ module.exports = [
         car: 30,
         insurrance: 0,
         additional: 0,
+        made: false,
     },
     {
         date: 'July 17',
@@ -350,6 +376,7 @@ module.exports = [
         car: 0,
         insurrance: 250,
         additional: 50,
+        made: true,
 
     },
     {
@@ -364,6 +391,7 @@ module.exports = [
         car: 0,
         insurrance: 0,
         additional: 105,
+        made: true,
     },
 
 ]
