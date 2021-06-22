@@ -3,13 +3,13 @@ const logs = express.Router()
 const arrayI = require("../Models/logs.js")
 
 
-  // const validateBody = (req, res, next) => {
-  //   const { date, taxes, retirement, save,  creditcard, market, internet, pet, car, insurrance, additional } = req.body;
-  //   if (!date) {
-  //     res.status(400).send();
-  //   }
-  //   next();
-  // };
+//   const validateBody = (req, res, next) => {
+//     const { date, taxes, retirement, save,  creditcard, market, internet, pet, car, insurrance, additional , made} = req.body;
+//     if (!date || !taxes || !retirement || !save || !creditcard || !market || !internet || !pet || !car || !insurrance || !additional || !made) {
+//       res.status(400).send();
+//     }
+//     next();
+//   };
   
   
 
@@ -30,6 +30,18 @@ logs.post("/",  (req, res) =>{
     arrayI.push(req.body)
     res.json(arrayI[arrayI.length - 1])
 })
+
+logs.put("/:arrayIndex",  (req, res) => {
+    const { arrayIndex} = req.params;
+  
+    if (arrayI[arrayIndex]) {
+      arrayI[arrayIndex] = req.body;
+      res.json(arrayI[arrayIndex]);
+    } else {
+      res.redirect("/404");
+    }
+  });
+
 logs.delete("/:arrayIndex", (req, res)=>{
     const {arrayIndex} = req.params
      if(arrayI[arrayIndex]){
