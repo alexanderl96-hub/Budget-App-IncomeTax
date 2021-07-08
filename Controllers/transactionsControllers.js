@@ -1,5 +1,5 @@
 const express = require('express')
-const logs = express.Router()
+const transactions = express.Router()
 const arrayI = require("../Models/logs.js")
 
 
@@ -13,7 +13,7 @@ const arrayI = require("../Models/logs.js")
   
   
 
-logs.get("/:arrayIndex", (req, res)=>{
+transactions.get("/:arrayIndex", (req, res)=>{
     const {arrayIndex} = req.params
      if(arrayI[arrayIndex]){
          res.status(200).json(arrayI[arrayIndex])
@@ -22,16 +22,16 @@ logs.get("/:arrayIndex", (req, res)=>{
      }
 })
 
-logs.get("/", (req, res)=>{
+transactions.get("/", (req, res)=>{
     res.json(arrayI)
 })
 
-logs.post("/",  (req, res) =>{
+transactions.post("/",  (req, res) =>{
     arrayI.push(req.body)
     res.json(arrayI[arrayI.length - 1])
 })
 
-logs.put("/:arrayIndex",  (req, res) => {
+transactions.put("/:arrayIndex",  (req, res) => {
     const { arrayIndex} = req.params;
   
     if (arrayI[arrayIndex]) {
@@ -42,7 +42,7 @@ logs.put("/:arrayIndex",  (req, res) => {
     }
   });
 
-logs.delete("/:arrayIndex", (req, res)=>{
+  transactions.delete("/:arrayIndex", (req, res)=>{
     const {arrayIndex} = req.params
      if(arrayI[arrayIndex]){
          arrayI.splice([arrayIndex], 1)
@@ -52,4 +52,4 @@ logs.delete("/:arrayIndex", (req, res)=>{
      }
 })
 
-module.exports = logs
+module.exports = transactions
